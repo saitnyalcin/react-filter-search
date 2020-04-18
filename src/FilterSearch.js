@@ -12,7 +12,7 @@ const FilterSearch = () => {
 
   useEffect(() => {
     fetchData();
-  });
+  }, []);
 
   return (
     <div>
